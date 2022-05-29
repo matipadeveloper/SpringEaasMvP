@@ -15,6 +15,9 @@
 	<description>Springboot actions project for Spring Boot</description>
 	<properties>
 		<java.version>18</java.version>
+		<sonar.host.url>https://sonarcloud.io/</sonar.host.url>
+		<sonar.projectKey>EaasSpring</sonar.projectKey>
+		<sonar.organization>matipadeveloper</sonar.organization>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -35,7 +38,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+        	  <groupId>org.sonarsource.scanner.maven</groupId>
+         	  <artifactId>sonar-maven-plugin</artifactId>
+         	  <version>3.7.0.1746</version>
+        	</plugin>
 		</plugins>
 	</build>
+
 
 </project>
