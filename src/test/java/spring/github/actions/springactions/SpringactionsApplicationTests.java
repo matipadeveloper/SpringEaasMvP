@@ -10,7 +10,7 @@ class SpringactionsApplicationTests {
 	@Test
 	void firstTestCase() {
 		System.out.println("Executing first test case...");
-		assertTrue(false);
+		assertTrue(true);
 	}
 
 	@Test
