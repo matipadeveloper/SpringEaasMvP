@@ -1,4 +1,4 @@
-package spring.github.actions.springactions;
+package spring.github.actions.springactions.objects;
 public enum HealthStatus {
 
     HEALTHY(200),
